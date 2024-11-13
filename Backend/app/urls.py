@@ -1,7 +1,7 @@
 from . import views
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import PostViewSet, IndexView, ContactView, CreatePostView, PostsByUser, PostDetailView
+from .views import PostViewSet, IndexView, ContactView, PostsByUser, PostDetailView
 from .views import PostTraceabilityView
 from django.conf import settings
 from django.conf.urls.static import static
